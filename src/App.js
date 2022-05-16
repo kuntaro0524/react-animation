@@ -7,12 +7,14 @@ export default function App() {
     from: {
       opacity: 0,
       color: "pink",
-      transform: "translateY(20px) scale(0.8)"
+      y: "20px",
+      scale: "0.5"
     },
     to: {
       opacity: 1,
       color: "blue",
-      transform: "translateY(0px) scale(0.8)"
+      y: "100px",
+      scale: "1.0"
     }
   });
 
